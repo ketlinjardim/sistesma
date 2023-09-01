@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    background-color:#E5E5E5;
+   
+}
+
+div{
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCA311;
+    height: 15%;
+   justify-content: space-around;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 60rem;
+    background-color:#264653;
+    border-radius: 1rem;
+    height: 50rem;
+    width: 100rem;
+    margin-left: 29rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 2rem;
+    color: #dfd9d9;
+    justify-content: center;
+    margin: 4.5rem;
+    
+}
+
+
+article{
+    background-color: #969b9c;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+   margin: 4rem;
+   flex-direction: column;
+  
+
+}
+
+img{
+   margin-top: 2rem;
+}
+#turma{
+    height: 13.5rem;
+    width: 20rem;
+}
+
+
+bdo{
+    background-color: #969b9c;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 20rem;
+    
+    display: flex;
+   margin: 4rem;
+   flex-direction: column;
+}
+
+bdi{
+    background-color: #969b9c;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 20rem;
+   
+    display: flex;
+   margin: 4rem;
+   flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-wrapper input {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    padding-right: 5rem;
+    
+    font-size: 2rem;
+    width: 40rem;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+  }
+  
+  .input-wrapper input:focus {
+    outline-color: lightcoral;
+  }
